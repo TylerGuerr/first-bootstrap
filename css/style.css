@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+  height: 650px;
+  max-width: auto;
+}
+.container .row {
+  justify-content: center;
+}
+.container .row #promote, .container .row #dev, .container .row #course, .container .row #start {
+  position: absolute;
+  display: flex;
+  top: 5rem;
+}
+.container .row #promote {
+  top: 5rem;
+}
+.container .row #promote h3 {
+  font-weight: bolder;
+}
+.container .row #dev {
+  top: 8rem;
+}
+.container .row #dev h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+.container .row #dev span {
+  color: rgb(215, 31, 215);
+}
+.container .row #course {
+  top: 18rem;
+}
+.container .row #course h2 {
+  font-weight: bolder;
+}
+.container .row #start {
+  background-color: rgba(114, 21, 114, 0.583);
+  color: white;
+  border-radius: 10rem;
+  width: 20rem;
+  padding: 1rem;
+  align-content: center;
+  top: 24rem;
+}
+.container .row #row2 {
+  position: absolute;
+  top: 32rem;
+}
+.container .row #content, .container .row #duration, .container .row #access {
+  border-right: 2px solid lightgray;
+}
+.container .row #content h4, .container .row #duration h4, .container .row #access h4 {
+  display: flex;
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+}
+.container .row #content .content2, .container .row #content .duration2, .container .row #content .access2, .container .row #duration .content2, .container .row #duration .duration2, .container .row #duration .access2, .container .row #access .content2, .container .row #access .duration2, .container .row #access .access2 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  opacity: 80%;
+}
+.container .row #content .content2 svg, .container .row #content .duration2 svg, .container .row #content .access2 svg, .container .row #duration .content2 svg, .container .row #duration .duration2 svg, .container .row #duration .access2 svg, .container .row #access .content2 svg, .container .row #access .duration2 svg, .container .row #access .access2 svg {
+  transform: scale(1.5);
+}
+.container .row #content .content2 h4, .container .row #content .duration2 h4, .container .row #content .access2 h4, .container .row #duration .content2 h4, .container .row #duration .duration2 h4, .container .row #duration .access2 h4, .container .row #access .content2 h4, .container .row #access .duration2 h4, .container .row #access .access2 h4 {
+  font-weight: 400;
+}
+.container .row #access {
+  border: none;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0px 30px 0px;
+  background-color: lightgray;
+}
+
+/*# sourceMappingURL=style.css.map */

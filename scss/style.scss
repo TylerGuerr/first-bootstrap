@@ -1,11 +1,12 @@
 body {
     margin: 0;
+    padding:0;
     background-color: #344955;
 }
 .computer {
     position:relative;
     img {
-        height: 650px;
+        height: 730px;
         width: 1500px;
         filter:brightness(40%);
         object-fit: cover;
@@ -95,3 +96,80 @@ body {
     color:#FFF;
 }
 
+@media (max-width:1000px) {
+    .computer {
+        img {
+            width: 1000px;
+        }
+    }
+    .container {
+        left: 9rem;
+        .row {
+            #dev {
+                h1{
+                    font-size: 4.5rem;
+                }
+            }
+        }
+    }
+    #footer {
+        h5 {
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width:576px) {
+    .computer {
+        img {
+            width: 500px;
+        }
+    }
+    .container {
+        left: 1rem;
+        .row {
+            #promote {
+                h3{
+                    font-size: 1.3rem;
+                }
+                
+            }
+            #dev {
+                h1{
+                    font-size: 3.5rem;
+                }
+            }
+            #course {
+                h2 {
+                    font-size: .9rem;
+                }
+            }
+            #start {
+                width: 15rem;
+                padding: .3rem;
+            }
+            #content, #duration, #access {
+                h4 {
+                    padding: 0px 5px 0px 5px;
+                    font-size: 13px;
+                }
+                .content2, .duration2, .access2 {
+                    svg {
+                        transform: scale(1);
+                    }
+                    h4 {
+                        font-weight:400;
+                    }
+                }
+            }
+        }
+    }
+    #footer {
+        h5 {
+            font-size: 10px;
+        }
+        #tutor {
+            margin-left: 20px;
+            margin-right: -20px;
+        }
+    }
+}
